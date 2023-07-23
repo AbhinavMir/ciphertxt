@@ -220,27 +220,7 @@ Groups, Rings, Fields, Finite Fields, Vector Spaces, Boolean Algebra
 
 ### Application of formal methods
 
-Applcations via Coq.
-
-**Why should you study formal methods?**
-
-- Formal proofs of security: Formal methods allow cryptographers to mathematically prove security properties of cryptographic constructions. This provides stronger assurance than informal arguments or reductions.
-
-- Finding flaws and bugs: Formal modeling and analysis tools can help identify subtle flaws or bugs in cryptographic designs that may be missed by informal reasoning. This is critical for security. 
-
-- Precise specifications: Formal modeling requires unambiguously specifying the desired properties and assumptions. This can help catch hidden assumptions or clarify design goals.
-
-- Automated reasoning: Proof assistants and automated solvers can help scale up formal reasoning and find proofs. This helps deal with the complexity of large cryptographic proofs.
-
-- Trusted code: Formal methods can verify implementation code matches specifications, ensuring security properties carry over to implementations. This helps avoid bugs breaking security.
-
-- New paradigms: Formal methods research explores new techniques like zero-knowledge proofs, secure multi-party computation, and programming languages with security properties. These lead to new cryptographic paradigms.
-
-- Interdisciplinary thinking: Formal methods draw from logic, theory, programming languages, and computer science. This can stimulate new ways of thinking about cryptography problems.
-
-**Topics covered** 
-
-Here is a short blurb for each of the 5 key categories:
+`Applcations via Coq`
 
 1. Formal foundations - This covers the core mathematical and logical foundations used in formal methods, including inductively defined data types, functions and relations specified recursively, mathematical induction and rewriting for proofs, operational semantics to formally define program meaning, and data abstraction techniques for organizing proofs about data representations.
 
