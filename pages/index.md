@@ -1,7 +1,7 @@
 ## Foundations of Cryptography
 Cryptography is essential for securing information in the digital world. This section covers the core concepts and constructions in cryptography.
 
-1. Introduction to Cryptography and Perfect Secrecy - Overview of cryptography, its goals, and perfect secrecy as defined by Shannon. Understanding the foundations.
+1. [Introduction to Cryptography and Perfect Secrecy](/introduction/Introduction-to-cryptography-and-perfect-secrecy) - Overview of cryptography, its goals, and perfect secrecy as defined by Shannon. Understanding the foundations.
 
 2. Computational Security and Pseudorandom Generators - Moving beyond perfect secrecy to computational security against bounded adversaries. Introducing pseudorandom generators.
 
