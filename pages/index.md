@@ -1,0 +1,258 @@
+Here is the list of topics with summaries and importance:
+
+## Foundations of Cryptography
+
+Cryptography is essential for securing information in the digital world. This section covers the core concepts and constructions in cryptography.
+
+1. Introduction to Cryptography and Perfect Secrecy - Overview of cryptography, its goals, and perfect secrecy as defined by Shannon. Understanding the foundations.
+
+2. Computational Security and Pseudorandom Generators - Moving beyond perfect secrecy to computational security against bounded adversaries. Introducing pseudorandom generators.
+
+3. Hybrid Argument and Pseudorandom Functions - Hybrid argument for proving computational indistinguishability. PRFs from PRGs.
+
+4. Goldreich-Goldwasser-Micali PRF Construction and IND-CPA Encryption - Constructing PRFs from PRGs. Using PRFs for IND-CPA symmetric encryption.
+
+5. Identification Protocols, MACs, and Chosen Ciphertext Secure Encryption - Authentication via identification protocols. Message authentication codes. IND-CCA secure encryption. 
+
+6. One-way Functions and Goldreich-Levin Theorem - Defining one-way functions. The Goldreich-Levin theorem for finding hardcore bits.
+
+7. TCS Perspective on Goldreich-Levin Theorem and Local List Decoding - Theoretical computer science view of Goldreich-Levin theorem. Connections to list decoding.
+
+8. Merkle's Key Exchange and Public-Key Encryption - Key exchange from OWFs. Public-key encryption from key exchange. 
+
+9. Discrete Log Assumption and Diffie-Hellman Key Exchange - Discrete log assumption. Diffie-Hellman key exchange.
+
+10. Trapdoor Functions, RSA, and Homomorphism - Trapdoor functions and RSA construction. Homomorphic encryption.
+
+11. Digital Signatures and Lamport's One-time Signature Scheme - Digital signatures. Lamport's one-time signature scheme.
+
+12. Collision-resistant Hash Functions and Naor-Yung Construction - Collision resistance. Naor-Yung construction of CCA encryption from CRHFs. 
+
+13. Zero Knowledge Proofs I: Definitions and Examples - Zero knowledge proofs. Basic definitions and examples.
+
+14. Zero Knowledge Proofs II: Zero Knowledge Proofs for all of NP - ZKPs for all of NP. ZK proof systems. 
+
+15. Succinct (Zero Knowledge) Argument Systems and Kilian's Protocol - Efficient zero knowledge arguments. Kilian's protocol.
+
+16. Lattices, Learning with Errors (LWE), and LWE-based Cryptography - Introduction to lattices. Learning with errors problem. LWE-based crypto.
+
+17. Fully Homomorphic Encryption and Bootstrapping Theorem - Fully homomorphic encryption. Bootstrapping theorem.
+
+18. Oblivious Transfer and Private Information Retrieval - 1-out-of-2 OT. Private information retrieval. 
+
+19. Secure Two-Party Computation and Goldreich-Micali-Wigderson Protocol - Secure computation. GMW protocol.
+
+20. Secret-Sharing and Secure Multiparty Computation - Secret sharing. Extending two-party computation to multiparty.
+
+21. Program Obfuscation and Applications - Program obfuscation. Applications.
+
+22. Yao's Garbled Circuits - Yao's garbled circuits construction.
+
+23. Quantum Cryptography - Introduction to quantum cryptography.
+
+24. Grand Challenges in Cryptography and Crypto AMA - Open problems and challenges. Crypto AMA.
+
+## Graduate Cryptography
+
+Advanced cryptography topics typically covered in graduate courses.  
+
+1. Introduction to Cryptography - Overview of goals, security definitions, adversarial models.
+
+2. Shannon, Perfect Security, and One-Time Pad - Shannon's perfect secrecy. The one-time pad.
+
+3. Computational Adversary and Symmetric Encryption - Computational security. Definitions for symmetric encryption. 
+
+4. One-way Functions and Goldreich-Levin Theorem - One-way functions. Hardcore bits and the Goldreich-Levin theorem.
+
+5. Pseudorandom Generators and Pseudo-random Functions - PRGs and PRFs. Constructions of PRFs from PRGs. 
+
+6. Pseudo-random Permutations and Symmetric Key Encryption - PRPs. Symmetric encryption from PRPs. 
+
+7. Number Theory 1: Discrete Log, MSB, and QR - Discrete log. Modular square roots. Quadratic residuosity.
+
+8. Number Theory 2: Factoring and RSA - Factoring. The RSA trapdoor permutation.
+
+9. Public Key Encryption I: Construction from RSA and Quadratic Residuosity - Public-key encryption from RSA and QR.
+
+10. Public Key Encryption II: Construction from Diffie-Hellman and Learning with Errors - Public-key encryption from DH and LWE.
+
+11. Digital Signatures and MACs I - Definition and constructions of digital signatures. Message authentication codes.
+
+12. Digital Signatures and MACs II - More on digital signatures and MACs.
+
+13. Merkle Trees and Certificate Transparency - Merkle trees. Certificate transparency. 
+
+14. Proof of Work, Consensus, Cryptographic Transactions, and Bitcoin - Proof of work. Distributed consensus. Bitcoin.
+
+15. Zero Knowledge I: Definitions and Examples - Zero knowledge proofs. Basic definitions and examples. 
+
+16. Zero Knowledge II: NP in ZK - Zero knowledge for all of NP. ZK proof systems.
+
+17. Non-Interactive Zero Knowledge Proofs (NIZK) - Efficient non-interactive zero knowledge proofs. 
+
+18. Zcash: Privacy-preserving Cryptocurrency with Zero-knowledge Proofs - Zcash and its use of NIZKs.
+
+19. Specialized Homomorphic Encryption and Applications - Somewhat homomorphic encryption. Applications. 
+
+20. Lattices and Learning with Errors (LWE) - Introduction to lattices. The learning with errors problem.
+
+21. Fully Homomorphic Encryption - Fully homomorphic encryption. 
+
+22. Private Information Retrieval (PIR) from FHE - Constructing PIR schemes from FHE.
+
+23. Secret Sharing - Secret sharing schemes. 
+
+24. Garbled Circuits and Yao's Two-party Computation Protocol - Yao's garbled circuits. Secure two-party computation.
+
+25. GMW Two-party Computation - The GMW protocol for secure two-party computation.
+
+26. Practical Machine Learning with MPC (optional for Berkeley) - Secure multiparty computation for machine learning.
+
+## ZK Knowledge
+
+Zero knowledge proofs are revolutionizing blockchain technology. This section provides an in-depth overview of modern ZKP constructions and applications.
+
+1. Introduction and History of Zero-Knowledge Proofs - Background and history of ZK proofs.
+
+2. Overview of Modern SNARK Constructions - High-level overview of modern succinct non-interactive arguments of knowledge (SNARKs).
+
+3. Libraries and Compilers to Build ZKP - Tools and libraries for building ZK proofs.
+
+4. Interactive Proofs (IP) and Merkle Trees - Interactive proofs. Using Merkle trees in ZK systems.
+
+5. Plonk Interactive Oracle Proofs (IOP) - The Plonk IOP construction and protocol. 
+
+6. Discrete-log-based Polynomial Commitments - Polynomial commitments based on the discrete log. 
+
+7. ZKP Based on Error-Correcting Codes - Leveraging error correcting codes.
+
+8. Transparent ZKP - Transparency in ZK proofs. 
+
+9. Linear Probabilistically Checkable Proofs (PCP) - Linear PCPs.
+
+10. Recursive SNARKs, Aggregation, and Accumulation - Recursive proof composition. Proof aggregation and accumulation. 
+
+11. Theoretical Foundations & Recent Theoretical Advancements - Theoretical foundations and latest advancements. 
+
+12. Overview of ZKP Applications & zkRollup and zkEVM - ZK proof applications. zkRollup and zkEVM.
+
+13. Building Opcode Compatible zk EVMs - Constructing EVM-compatible zk virtual machines.
+
+14. Privacy-preserving Architectures - Architectures leveraging ZK proofs for privacy.
+
+15. More ZKP Applications - Additional applications of ZK proofs.
+
+16. Formal Verification of ZKP - Formal verification of ZK systems.
+
+17. Hardware Acceleration of ZKP - Hardware optimizations for ZK proofs.
+
+## Elliptic Curves
+
+Elliptic curves are fundamental to modern cryptography. This section provides a deep dive into elliptic curve theory, construction, and applications.
+
+1. Introduction to Elliptic Curves - Basic introduction to elliptic curves.
+
+2. The Group Law, Weierstrass and Edwards Equations - Group law. Weierstrass and Edwards models.
+
+3. Finite Field Arithmetic - Arithmetic in finite fields.
+
+4. Isogenies and Division Polynomials - Isogenies. Division polynomials. 
+
+5. Endomorphism Rings - Endomorphism rings of elliptic curves.
+
+6. Hasse's Theorem and Point Counting - Hasse's theorem. Point counting algorithms.
+
+7. Schoof's Algorithm - Schoof's point counting algorithm.
+
+8. Generic Algorithms for the Discrete Logarithm Problem - Algorithms for the ECDLP. 
+
+9. Index Calculus, Smooth Numbers, and Factoring Integers - Index calculus. Smooth numbers. Factorization algorithms.
+
+10. Elliptic Curve Primality Proving (ECPP) - Using elliptic curves for probabilistic primality proving.
+
+11. Endomorphism Algebras - Endomorphism algebras of elliptic curves.
+
+12. Ordinary and Supersingular Curves - Ordinary vs supersingular curves.
+
+13. Elliptic Curves over Complex Numbers (C) - Elliptic curves over the complex numbers.
+
+14. Complex Multiplication (CM) and CM Torsor - Complex multiplication. CM torsors.
+
+15. Riemann Surfaces and Modular Curves - Riemann surfaces. Modular curves.
+
+16. The Modular Equation - The modular equation. 
+
+17. The Hilbert Class Polynomial - Hilbert class polynomials.
+
+18. Ring Class Fields and the CM Method - Ring class fields. The CM method for constructing curves.
+
+19. Isogeny Volcanoes - Isogeny volcanoes.
+
+20. The Weil Pairing - The Weil pairing and its properties. 
+
+21. Modular Forms and L-functions - Modular forms. L-functions.
+
+22. Fermat's Last Theorem - Using elliptic curves to prove Fermat's last theorem.
+
+## Mathematics
+
+Mathematical foundations essential for cryptography.
+
+### Number Theory
+
+1. Modular Arithmetic - Modular arithmetic, groups, inverses. Important foundation.
+
+2. Prime Numbers and Factorization - Primes, unique factorization. Important cryptographic assumptions.
+
+3. Discrete Logarithm Problem - Discrete log problem, Diffie-Hellman. Core cryptographic hardness assumption. 
+
+4. Primality Testing - Testing primes and generating primes. Used in key generation.
+
+5. Cryptographic Hash Functions - Hash functions, collision resistance. Essential cryptographic primitive.
+
+6. Public-Key Cryptography - Public key encryption, signatures. enabled modern crypto.
+
+7. Lattices - Lattices, LWE. A promising post-quantum alternative.
+
+8. Error-Correcting Codes - ECCs, decoding. Used in code-based crypto. 
+
+### Algebraic Structures
+
+Understanding algebraic structures crucial for cryptography.
+Groups, Rings, Fields, Finite Fields, Vector Spaces, Boolean Algebra
+
+### Application of formal methods
+
+Applcations via Coq.
+
+**Why should you study formal methods?**
+
+- Formal proofs of security: Formal methods allow cryptographers to mathematically prove security properties of cryptographic constructions. This provides stronger assurance than informal arguments or reductions.
+
+- Finding flaws and bugs: Formal modeling and analysis tools can help identify subtle flaws or bugs in cryptographic designs that may be missed by informal reasoning. This is critical for security. 
+
+- Precise specifications: Formal modeling requires unambiguously specifying the desired properties and assumptions. This can help catch hidden assumptions or clarify design goals.
+
+- Automated reasoning: Proof assistants and automated solvers can help scale up formal reasoning and find proofs. This helps deal with the complexity of large cryptographic proofs.
+
+- Trusted code: Formal methods can verify implementation code matches specifications, ensuring security properties carry over to implementations. This helps avoid bugs breaking security.
+
+- New paradigms: Formal methods research explores new techniques like zero-knowledge proofs, secure multi-party computation, and programming languages with security properties. These lead to new cryptographic paradigms.
+
+- Interdisciplinary thinking: Formal methods draw from logic, theory, programming languages, and computer science. This can stimulate new ways of thinking about cryptography problems.
+
+**Topics covered** 
+
+Here is a short blurb for each of the 5 key categories:
+
+1. Formal foundations - This covers the core mathematical and logical foundations used in formal methods, including inductively defined data types, functions and relations specified recursively, mathematical induction and rewriting for proofs, operational semantics to formally define program meaning, and data abstraction techniques for organizing proofs about data representations.
+
+2. Type systems - This explores how type systems can enable static verification of programs. Topics include lambda calculus as a model of computation, type soundness proofs showing type safety, and advanced type system features like subtyping and mutable references that increase expressiveness while preserving soundness.
+
+3. Program logics - These logics support reasoning about imperative programs. Hoare logic offers formal verification based on pre- and post-conditions. Different embeddings of source programs enable different proof methods. Separation logic supports modular reasoning about pointer-manipulating programs.
+
+4. Concurrency models - Concurrency introduces new challenges for verification. Operational semantics can model concurrent behavior. Separation logic and rely-guarantee reasoning enable modular proofs about shared state. Process calculi like pi-calculus provide high-level languages for modeling and reasoning about message-passing programs. 
+
+5. Key concepts - There are important high-level concepts that apply across models and methods. Encoding choices have big impacts on proof complexity. Invariants are central to most proofs about stateful programs. Abstraction and modularity enable tackling large systems by breaking them into smaller pieces.
+
+6. Applications to Cryptograph - Covers writing some proofs for cryptographic constructions in Coq. Also discusses EasyCrypt.
