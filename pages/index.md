@@ -1,7 +1,4 @@
-Here is the list of topics with summaries and importance:
-
 ## Foundations of Cryptography
-
 Cryptography is essential for securing information in the digital world. This section covers the core concepts and constructions in cryptography.
 
 1. Introduction to Cryptography and Perfect Secrecy - Overview of cryptography, its goals, and perfect secrecy as defined by Shannon. Understanding the foundations.
@@ -255,4 +252,22 @@ Here is a short blurb for each of the 5 key categories:
 
 5. Key concepts - There are important high-level concepts that apply across models and methods. Encoding choices have big impacts on proof complexity. Invariants are central to most proofs about stateful programs. Abstraction and modularity enable tackling large systems by breaking them into smaller pieces.
 
-6. Applications to Cryptograph - Covers writing some proofs for cryptographic constructions in Coq. Also discusses EasyCrypt.
+6. Applications to Cryptography - Covers writing some proofs for cryptographic constructions in Coq. Also discusses EasyCrypt.
+
+### Complexity Theory and Cryptography
+
+Complexity theory is a branch of theoretical computer science that studies the resources required to solve computational problems. It provides a theoretical framework for understanding the efficiency of algorithms and the inherent difficulty of solving specific computational tasks. For cryptography, several elements of complexity theory are relevant and essential:
+
+1. Computational Complexity Classes: Complexity theory defines classes of computational problems based on the amount of computational resources required to solve them. The most well-known complexity classes are P (problems solvable in polynomial time) and NP (problems verifiable in polynomial time). Cryptographers often work with problems that are believed to be hard in the worst-case scenario (NP-hard) or difficult to solve efficiently (NP-complete). Understanding these complexity classes helps cryptographers analyze the security of cryptographic protocols and algorithms.
+
+2. One-Way Functions: One-way functions are central to many cryptographic constructions. These are functions that are easy to compute in one direction but computationally infeasible to invert in the other direction without specific additional information. Complexity theory provides the foundation for defining and studying the properties of one-way functions and their applications in cryptography, such as in public key cryptography.
+
+3. Computational Intractability: Complexity theory investigates problems that are computationally intractable, meaning they cannot be solved efficiently by any known algorithm. This is closely related to the concept of hardness in cryptography. Cryptographers often rely on the assumption that certain problems are hard to solve, forming the basis for cryptographic protocols like factoring for RSA and discrete logarithms for Diffie-Hellman.
+
+4. Reductions: Reductions are fundamental tools in complexity theory used to establish relationships between different problems. In cryptography, reductions are used to demonstrate that breaking one problem is equivalent to breaking another problem, thus providing evidence of the security of cryptographic constructions.
+
+5. Randomized Complexity: Randomized algorithms and complexity classes like BPP (bounded-error probabilistic polynomial time) are relevant in cryptography. They allow for probabilistic analysis and the construction of algorithms that may not be guaranteed to be correct every time, but they are correct with high probability. Randomized algorithms are employed in certain cryptographic protocols and algorithms to improve efficiency and security.
+
+6. Interactive Proof Systems: Complexity theory explores interactive proof systems, where a prover tries to convince a verifier about the validity of a claim. These concepts underpin the study of zero-knowledge proofs, which are widely used in modern cryptographic protocols to prove knowledge of information without revealing that information.
+
+7. Hardness Assumptions: Cryptographic security often relies on the assumption that certain computational problems are hard to solve. Complexity theory helps in understanding the strength of these hardness assumptions and their implications for the security of cryptographic schemes.
