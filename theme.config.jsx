@@ -8,7 +8,7 @@ export default {
     },
     useNextSeoProps() {
       return {
-        title: 'ジ CipherTxt', 
+        title: 'ツ CipherTxt', 
         description: 'A corpus of exhaustive notes on Cryptography, Secure communication, Network security, Formal Verification, and Structure of Programming Languages.'
       }
     }
