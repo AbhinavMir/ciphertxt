@@ -1,5 +1,7 @@
 A fundamental tool used to achieve computational security is the pseudorandom generator (PRG). Pseudorandom generators are algorithms that generate sequences of bits that appear to be random but are, in fact, deterministically derived from a shorter random seed. These generators act as a crucial component in many cryptographic constructions, allowing us to produce longer, seemingly random streams of data from a shorter, truly random seed.
 
+Why PRGs and not true randomness? It's for practicality purpose. PRGs provide true 
+
 ```python
 import random
 
