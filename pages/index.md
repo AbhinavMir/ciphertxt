@@ -1,4 +1,8 @@
-## Foundations of Cryptography
+
+---
+title: Foundations of Cryptography
+description: Foundations of Cryptography
+---
 Cryptography is essential for securing information in the digital world. This section covers the core concepts and constructions in cryptography.
 
 1. [Introduction to Cryptography and Perfect Secrecy](/introduction/Introduction-to-cryptography-and-perfect-secrecy) - Overview of cryptography, its goals, and perfect secrecy as defined by Shannon. Understanding the foundations.
