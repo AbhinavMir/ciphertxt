@@ -106,10 +106,15 @@ Advanced cryptography topics typically covered in graduate courses.
 
 26. Practical Machine Learning with MPC (optional for Berkeley) - Secure multiparty computation for machine learning.
 
+## Primer to Zero Knowledge
+
+1. Modular Arithmetic
+2. 
+
 ## ZK Knowledge
 
 Zero knowledge proofs are revolutionizing blockchain technology. This section provides an in-depth overview of modern ZKP constructions and applications.
-
+˜
 1. Introduction and History of Zero-Knowledge Proofs - Background and history of ZK proofs.
 
 2. Overview of Modern SNARK Constructions - High-level overview of modern succinct non-interactive arguments of knowledge (SNARKs).
@@ -252,3 +257,4 @@ Complexity theory is a branch of theoretical computer science that studies the r
 6. Interactive Proof Systems: Complexity theory explores interactive proof systems, where a prover tries to convince a verifier about the validity of a claim. These concepts underpin the study of zero-knowledge proofs, which are widely used in modern cryptographic protocols to prove knowledge of information without revealing that information.
 
 7. Hardness Assumptions: Cryptographic security often relies on the assumption that certain computational problems are hard to solve. Complexity theory helps in understanding the strength of these hardness assumptions and their implications for the security of cryptographic schemes.
+    
