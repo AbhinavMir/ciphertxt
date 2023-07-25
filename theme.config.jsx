@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router' 
 import { useNextSeoProps } from 'nextra-theme-docs'
+import { Callout } from 'nextra/components'
 
 export default {
     logo: <span>Ciphertxt.com</span>,
