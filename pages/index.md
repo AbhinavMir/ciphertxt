@@ -1,5 +1,5 @@
 
-## Foundations of Cryptography
+## A corpus of my notes on Cryptography
 Cryptography is essential for securing information in the digital world. This section covers the core concepts and constructions in cryptography.
 
 1. [Introduction to Cryptography and Perfect Secrecy](/introduction/Introduction-to-cryptography-and-perfect-secrecy) - Overview of cryptography, its goals, and perfect secrecy as defined by Shannon. Understanding the foundations.
@@ -106,16 +106,11 @@ Advanced cryptography topics typically covered in graduate courses.
 
 26. Practical Machine Learning with MPC (optional for Berkeley) - Secure multiparty computation for machine learning.
 
-## Primer to Zero Knowledge
-
-1. Modular Arithmetic
-2. 
-
 ## ZK Knowledge
 
 Zero knowledge proofs are revolutionizing blockchain technology. This section provides an in-depth overview of modern ZKP constructions and applications.
 ˜
-1. Introduction and History of Zero-Knowledge Proofs - Background and history of ZK proofs.
+1. Introduction and History of Zero-Knowledge Proofs, modular arith. - Background and history of ZK proofs.
 
 2. Overview of Modern SNARK Constructions - High-level overview of modern succinct non-interactive arguments of knowledge (SNARKs).
 
