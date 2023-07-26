@@ -48,7 +48,6 @@ Cryptography is essential for securing information in the digital world. This se
 
 23. Quantum Cryptography - Introduction to quantum cryptography.
 
-24. Grand Challenges in Cryptography and Crypto AMA - Open problems and challenges. Crypto AMA.
 
 ## Graduate Cryptography
 
