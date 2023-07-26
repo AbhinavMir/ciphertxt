@@ -1,7 +1,4 @@
-import { Callout } from 'nextra/components'
- 
-<Callout emoji="👾">
+
 Hybrid Arguments are a proof technique to prove that two distributions are computationally indistinguishable. They are used to prove the security of PRFs, PRGs, and PRPs.
-</Callout>
 
 Pseudor-random functions are a set of algorithms which emulate a random oracle.

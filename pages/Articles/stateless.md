@@ -1,8 +1,5 @@
-import { Callout } from 'nextra/components'
- 
-<Callout emoji="👾">
-This document discusses KZG scheme, but Ethereum is tending towards IPA, which is a different scheme. I'll update this document once I have a better understanding of IPA.
-</Callout>
+> This document discusses KZG scheme, but Ethereum is tending towards IPA, which is a different scheme. I'll update this document once I have a better understanding of IPA.
+
 
 # The State of Stateless in Ethereum ecosystem
 
