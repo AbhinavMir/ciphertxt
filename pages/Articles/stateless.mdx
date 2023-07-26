@@ -1,3 +1,9 @@
+import { Callout } from 'nextra/components'
+ 
+<Callout emoji="👾">
+This document discusses KZG scheme, but Ethereum is tending towards IPA, which is a different scheme. I'll update this document once I have a better understanding of IPA.
+</Callout>
+
 # The State of Stateless in Ethereum ecosystem
 
 Statelessness is important in Ethereum as it allows for nodes that sync fast to be used, increasing trust assumptions for users due to an increased decentralised verification system. It is also great for state resurrection should we ever decide to prune out the stale state or even delete less relevant states. We will likely keep a state stored elsewhere instead of on full nodes, and should we ever need it, clients can use stateless blocks for execution and verification.
