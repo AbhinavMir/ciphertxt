@@ -1,5 +1,8 @@
 
-# DNA + Cryptography
+---
+title: DNAs in Cryptography.
+type: posts
+---
 
 Found a pretty cool paper this week - [A New Hybrid Cryptosystem Involving DNA,
 Rabin, One Time Pad and Fiestel](https://arxiv.org/pdf/2307.09322.pdf). Thought I'd discuss it.
