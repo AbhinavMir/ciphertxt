@@ -26,12 +26,21 @@ The rise of blockchain technology further accentuates the importance of serializ
 
 ## Why not just dump the content in a .txt file?
 
-| Approach                   | Pros                                          | Cons                                                                      |
-|----------------------------|-----------------------------------------------|---------------------------------------------------------------------------|
-| Serialization              | - Preserves data structure                   | - Not human-readable                                                      |
-| (Using Serializable Objects)| - Built-in support in many languages         | - Versioning challenges                                                   |
-|                            | - Compact representation                     |                                                                           |
-|----------------------------|-----------------------------------------------|---------------------------------------------------------------------------|
-| Plain Text Dump            | - Human-readable                             | - No preservation of data structure                                       |
-|                            | - Simplicity                                 | - Increased file size                                                     |
-|                            | - No versioning issues                       | - Custom parsing required                                                 |
+**Serialization (Using Serializable Objects)**:
+- Pros:
+  - Preserves data structure.
+  - Built-in support in many languages.
+  - Compact representation.
+- Cons:
+  - Not human-readable.
+  - Versioning challenges.
+
+**Plain Text Dump**:
+- Pros:
+  - Human-readable.
+  - Simplicity.
+  - No versioning issues.
+- Cons:
+  - No preservation of data structure.
+  - Increased file size.
+  - Custom parsing required.
