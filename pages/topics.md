@@ -1,7 +1,6 @@
 ## A corpus of my notes and articles on Cryptography, Networking and Formal methods
 
-
-Here is the index with links to sections in Markdown format:
+If something is incomplete, I'll try to finish it up ASAP. I'm tranferring 3-4 notebooks worth of notes first to digital text, formatting it with Markdown + LaTex and then finally posting them here, while dealing with build issues. It's a lot of fun (and this is not sarcastic). Sometimes I'll discover "Wait, this is all off" and other times I go "This could use a practical code example!", thus adding to the delay.
 
 ## Broad points of discussion
 
