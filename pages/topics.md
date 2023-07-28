@@ -1,4 +1,4 @@
-## A corpus of my notes and articles on Cryptography
+## A corpus of my notes and articles on Cryptography, Networking and Formal methods
 Cryptography is essential for securing information in the digital world. This section covers the core concepts and constructions in cryptography.
 
 1. [Introduction to Cryptography and Perfect Secrecy](/introduction/Introduction-to-cryptography-and-perfect-secrecy) - Overview of cryptography, its goals, and perfect secrecy as defined by Shannon. Understanding the foundations.
@@ -251,3 +251,233 @@ Complexity theory is a branch of theoretical computer science that studies the r
 
 7. Hardness Assumptions: Cryptographic security often relies on the assumption that certain computational problems are hard to solve. Complexity theory helps in understanding the strength of these hardness assumptions and their implications for the security of cryptographic schemes.
     
+## Cryptoanalysis
+[Source](https://hadipourh.github.io/course-cryptanalysis/)
+
+- **Kerckhoffs' Principle**: Security of a cryptographic system relies on the secrecy of the key, not the algorithm.
+- **Notions of Security**: Assessing security in terms of confidentiality, integrity, authenticity, and more.
+- **Models of Attack**: Different attack models, such as chosen plaintext, chosen ciphertext, etc.
+- **Targets of Attack**: Analyzing weaknesses in block ciphers, stream ciphers, hash functions, key exchange protocols, etc.
+- **Theoretical Attacks vs. Practical Attacks**: Distinguishing attacks based on mathematical principles from those considering real-world limitations.
+- **Lessons Learned from Classic Ciphers**: Insights gained from historical ciphers like the Caesar cipher and Vigenère cipher.
+- **Cryptanalysis of Block Ciphers**:
+  - Meet-in-the-Middle Attack & TMTO.
+  - Basic Differential Analysis.
+  - Basic Linear Analysis.
+  - Wide-Trail Strategy and AES.
+  - Integral Cryptanalysis.
+  - Truncated Differential Attack.
+  - Higher Order Differential Attack.
+  - Boomerang and Rectangle Attacks.
+  - Impossible Differential Attack.
+  - Multi-Dimensional Linear Attack.
+  - Zero-Correlation Linear Attack.
+  - Division Property.
+  - Demirci-Selcuk MitM Attack.
+  - Subspace Trail Cryptanalysis.
+- **More (Optional)**: Advanced cryptanalysis techniques and attacks.
+- **Cryptanalysis of Stream Ciphers**:
+  - Guess-and-Determine Attack on Stream Ciphers.
+  - Time-Memory-Data Tradeoff Attack.
+  - Linear Distinguisher and Correlation Attacks.
+- **Cryptanalysis of Hash Functions**:
+  - Birthday Attacks.
+  - MD and Sponge.
+  - Differential Cryptanalysis and Collision Attacks.
+- **Meet-in-the-Middle Pre-image Attack**
+- **Computer-Aided Cryptanalysis**:
+  - MILP-based Cryptanalysis.
+  - SAT-based Cryptanalysis.
+  - Algebraic Cryptanalysis.
+  - Interpolation Attack.
+  - Cube Attacks and Higher Order Differential Attack.
+  - Linearization.
+- **Merkle-Hellman Knapsack**
+- **Diffie-Hellman Key Exchange and MitM**
+- **Discrete Log Algorithms**:
+  - Baby-Step Giant-Step.
+  - Factoring Algorithms.
+  - Dixon's Algorithm.
+  - Quadratic Sieve.
+- **Quantum Algorithms**
+
+## Networking fundamentals
+Follows the CCNA guide.
+
+1.1 Explain the role and function of network components
+- 1.1.a Routers
+- 1.1.b Layer 2 and Layer 3 switches
+- 1.1.c Next-generation firewalls and IPS
+- 1.1.d Access points
+- 1.1.e Controllers (Cisco DNA Center and WLC)
+- 1.1.f Endpoints
+- 1.1.g Servers
+- 1.1.h PoE
+
+1.2 Describe characteristics of network topology architectures
+- 1.2.a Two-tier
+- 1.2.b Three-tier
+- 1.2.c Spine-leaf
+- 1.2.d WAN
+- 1.2.e Small office/home office (SOHO)
+- 1.2.f On-premise and cloud
+
+1.3 Compare physical interface and cabling types
+- 1.3.a Single-mode fiber, multimode fiber, copper
+- 1.3.b Connections (Ethernet shared media and point-to-point)
+
+1.4 Identify interface and cable issues (collisions, errors, mismatch duplex, and/or speed)
+
+1.5 Compare TCP to UDP
+
+1.6 Configure and verify IPv4 addressing and subnetting
+
+1.7 Describe the need for private IPv4 addressing
+
+1.8 Configure and verify IPv6 addressing and prefix
+
+1.9 Describe IPv6 address types
+- 1.9.a Unicast (global, unique local, and link local)
+- 1.9.b Anycast
+- 1.9.c Multicast
+- 1.9.d Modified EUI 64
+
+1.10 Verify IP parameters for Client OS (Windows, Mac OS, Linux)
+
+1.11 Describe wireless principles
+- 1.11.a Nonoverlapping Wi-Fi channels
+- 1.11.b SSID
+- 1.11.c RF
+- 1.11.d Encryption
+
+1.12 Explain virtualization fundamentals (server virtualization, containers, and VRFs)
+
+1.13 Describe switching concepts
+- 1.13.a MAC learning and aging
+- 1.13.b Frame switching
+- 1.13.c Frame flooding
+- 1.13.d MAC address table
+
+2.1 Configure and verify VLANs (normal range) spanning multiple switches
+- 2.1.a Access ports (data and voice)
+- 2.1.b Default VLAN
+- 2.1.c InterVLAN connectivity
+
+2.2 Configure and verify interswitch connectivity
+- 2.2.a Trunk ports
+- 2.2.b 802.1Q
+- 2.2.c Native VLAN
+
+2.3 Configure and verify Layer 2 discovery protocols (Cisco Discovery Protocol and LLDP)
+
+2.4 Configure and verify (Layer 2/Layer 3) EtherChannel (LACP)
+
+2.5 Interpret basic operations of Rapid PVST+ Spanning Tree Protocol
+- 2.5.a Root port, root bridge (primary/secondary), and other port names
+- 2.5.b Port states (forwarding/blocking)
+- 2.5.c PortFast
+
+2.6 Describe Cisco Wireless Architectures and AP modes
+
+2.7 Describe physical infrastructure connections of WLAN components (AP, WLC, access/trunk ports, and LAG)
+
+2.8 Describe AP and WLC management access connections (Telnet, SSH, HTTP, HTTPS, console, and TACACS+/RADIUS)
+
+2.9 Interpret the wireless LAN GUI configuration for client connectivity, such as WLAN creation, security settings, QoS profiles, and advanced settings
+
+3.1 Interpret the components of the routing table
+- 3.1.a Routing protocol code
+- 3.1.b Prefix
+- 3.1.c Network mask
+- 3.1.d Next hop
+- 3.1.e Administrative distance
+- 3.1.f Metric
+- 3.1.g Gateway of last resort
+
+3.2 Determine how a router makes a forwarding decision by default
+- 3.2.a Longest prefix match
+- 3.2.b Administrative distance
+- 3.2.c Routing protocol metric
+
+3.3 Configure and verify IPv4 and IPv6 static routing
+- 3.3.a Default route
+- 3.3.b Network route
+- 3.3.c Host route
+- 3.3.d Floating static
+
+3.4 Configure and verify single area OSPFv2
+- 3.4.a Neighbor adjacencies
+- 3.4.b Point-to-point
+- 3.4.c Broadcast (DR/BDR selection)
+- 3.4.d Router ID
+
+3.5 Describe the purpose, functions, and concepts of first hop redundancy protocols
+
+4.1 Configure and verify inside source NAT using static and pools
+
+4.2 Configure and verify NTP operating in a client and server mode
+
+4.3 Explain the role of DHCP and DNS within the network
+
+4.4 Explain the function of SNMP in network operations
+
+4.5 Describe the use of syslog features including facilities and levels
+
+4.6 Configure and verify DHCP client and relay
+
+4.7 Explain the forwarding per-hop behavior (PHB) for QoS, such as classification, marking, queuing, congestion, policing, and shaping
+
+4.8 Configure network devices for remote access using SSH
+
+4.9 Describe the capabilities and functions of TFTP/FTP in the network
+
+5.1 Define key security concepts (threats, vulnerabilities, exploits, and mitigation techniques)
+
+5.2 Describe security program elements (user awareness, training, and physical access control)
+
+5.3 Configure and verify device access control using local passwords
+
+5.4 Describe security password policies elements, such as management, complexity, and password alternatives (multifactor authentication, certificates, and biometrics)
+
+5.5 Describe IPsec remote access and site-to-site VPNs
+
+5.6 Configure and verify access control lists
+
+5.7 Configure and verify Layer 2 security features (DHCP snooping, dynamic ARP inspection, and port security)
+
+5.8 Compare authentication, authorization, and accounting concepts
+
+5.9 Describe wireless security protocols (WPA, WPA2, and WPA3)
+
+5.10 Configure and verify WLAN within the GUI using WPA2 PSK
+
+6.1 Explain how automation impacts network management
+
+6.2 Compare traditional networks with controller-based networking
+
+6.3 Describe controller-based, software-defined architecture (overlay, underlay, and fabric)
+- 6.3.a Separation of control plane and data plane
+- 6.3.b Northbound and Southbound APIs
+
+6.4 Compare traditional campus device management with Cisco DNA Center enabled device management
+
+6.5 Describe characteristics of REST-based APIs (CRUD, HTTP verbs, and data encoding)
+
+6.6 Recognize the capabilities of configuration management mechanisms Puppet, Chef, and Ansible
+
+6.7 Recognize components of JSON-encoded data
+
+## Network Security
+(Follows CS558 by Prof. Kaptchuk ~ I was enrolled for his course in Spring '22 and was deeply inspired)
+
+
+1. Internet Infrastructure Protocols (eg. BGP, ARP, DNS)
+2. DDoS and Reflection Attacks
+3. TLS (eg. FREAK, Logjam, Drown, Heartbleed, Goto Fail, PKI infrastructure)
+4. Crypto Wars
+5. Tor (eg. Protocol obfuscation, Protocol tunneling)
+6. Proxying (eg. Domain Fronting and Encrypted SNI, Telex and Tapdance)
+7. Attacking Secure Messaging (eg. Padding oracles, iMessage attack)
+8. Signal Protocol (eg. Forward/Backward Secrecy, OTR, Sealed Sender Messaging, Private Information Retrieval)
+9. Private Computation - Trusted Execution Environments and MPC (Security Model, Attacks, Real Applications)
+10. Two Party Computation/Multiparty Computation (BU and BWWC, STORMY Tor measurement, End to End 2PC/MPC compilers)
