@@ -1,4 +1,36 @@
 ## A corpus of my notes and articles on Cryptography, Networking and Formal methods
+
+
+Here is the index with links to sections in Markdown format:
+
+## Broad points of discussion
+
+[Primer to Cryptography](#primer-to-cryptography)
+
+[Graduate Cryptography](#graduate-cryptography)
+
+[ZK Knowledge](#zk-knowledge)
+
+[Elliptic Curves](#elliptic-curves) 
+
+[Number Theory](#number-theory)
+
+[Algebraic Structures](#algebraic-structures)
+
+[Application of formal methods](#application-of-formal-methods)
+
+[Complexity Theory and Cryptography](#complexity-theory-and-cryptography)
+
+[Cryptoanalysis](#cryptoanalysis)
+
+[Networking fundamentals](#networking-fundamentals)
+
+[Network Security](#network-security)
+
+<hr>
+
+## Primer to Cryptography
+
 Cryptography is essential for securing information in the digital world. This section covers the core concepts and constructions in cryptography.
 
 1. [Introduction to Cryptography and Perfect Secrecy](/introduction/Introduction-to-cryptography-and-perfect-secrecy) - Overview of cryptography, its goals, and perfect secrecy as defined by Shannon. Understanding the foundations.
@@ -189,10 +221,6 @@ Elliptic curves are fundamental to modern cryptography. This section provides a 
 21. Modular Forms and L-functions - Modular forms. L-functions.
 
 22. Fermat's Last Theorem - Using elliptic curves to prove Fermat's last theorem.
-
-## Mathematics
-
-Mathematical foundations essential for cryptography.
 
 ### Number Theory
 
