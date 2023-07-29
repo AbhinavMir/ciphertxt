@@ -10,8 +10,7 @@ The fundamental domain is not restricted to align with the lattice's basis vecto
 
 ### Formal Definition
 
-**Understanding Orbits**
-An orbit is a fundamental concept in the study of group actions. Given a group $G$ acting on a set $\mathcal{X}$, the orbit of an element $x \in \mathcal{X}$ under this group action is the set of all elements obtained by applying the group elements to $x$. In other words, it is the collection of all possible images of $x$ under the action of the group.
+**Understanding Orbits**: An orbit is a fundamental concept in the study of group actions. Given a group $G$ acting on a set $\mathcal{X}$, the orbit of an element $x \in \mathcal{X}$ under this group action is the set of all elements obtained by applying the group elements to $x$. In other words, it is the collection of all possible images of $x$ under the action of the group. (An orbit in math is similar to an orbit in astronomy, which is the path of a celestial body around another celestial body under the influence of gravity.)
 
 Formally, the orbit of $x \in \mathcal{X}$, denoted as $\mathcal{O}_x$ or simply $\mathcal{O}(x)$, is defined as:
 
