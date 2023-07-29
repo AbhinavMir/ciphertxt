@@ -1,32 +1,22 @@
 ## A corpus of my notes and articles on Cryptography, Networking and Formal methods
 
-If something is incomplete, I'll try to finish it up ASAP. I'm tranferring 3-4 notebooks worth of notes first to digital text, formatting it with Markdown + LaTex and then finally posting them here, while dealing with build issues. It's a lot of fun (and this is not sarcastic). Sometimes I'll discover "Wait, this is all off" and other times I go "This could use a practical code example!", thus adding to the delay.
-
-## Broad points of discussion
-
-[Primer to Cryptography](#primer-to-cryptography)
-
-[Graduate Cryptography](#graduate-cryptography)
-
-[ZK Knowledge](#zk-knowledge)
-
-[Elliptic Curves](#elliptic-curves) 
-
-[Number Theory](#number-theory)
-
-[Complex Analysis and Algebraic Structures](#algebraic-structures)
-
-[Application of formal methods](#application-of-formal-methods)
-
-[Complexity Theory and Cryptography](#complexity-theory-and-cryptography)
-
-[Cryptoanalysis](#cryptoanalysis)
-
-[Networking fundamentals](#networking-fundamentals)
-
-[Network Security](#network-security)
+| Link                                      | Summary                                                   |
+| ----------------------------------------- | --------------------------------------------------------- |
+| [Primer to Cryptography](#primer-to-cryptography)     | Introduction to the fundamental concepts of cryptography. |
+| [Graduate Cryptography](#graduate-cryptography)      | Advanced topics in cryptography for higher-level study.   |
+| [ZK Knowledge](#zk-knowledge)                       | Understanding Zero-Knowledge proofs and their applications. |
+| [Elliptic Curves](#elliptic-curves)                 | Exploring the mathematics and applications of elliptic curves. |
+| [Number Theory](#number-theory)                     | Topics related to number theory and its cryptographic relevance. |
+| [Complex Analysis and Algebraic Structures](#algebraic-structures) | Discussion on the role of complex analysis in cryptography. |
+| [Application of formal methods](#application-of-formal-methods) | Using formal methods for cryptographic protocol analysis. |
+| [Complexity Theory and Cryptography](#complexity-theory-and-cryptography) | The interplay between complexity theory and cryptographic constructions. |
+| [Cryptoanalysis](#cryptoanalysis)                   | Techniques for analyzing and breaking cryptographic schemes. |
+| [Networking fundamentals](#networking-fundamentals)   | Basics of computer networking and communication protocols. |
+| [Network Security](#network-security)               | Measures to secure computer networks from threats and attacks. |
 
 <hr>
+
+If something is incomplete, I'll try to finish it up ASAP. I'm tranferring 3-4 notebooks worth of notes first to digital text, formatting it with Markdown + LaTex and then finally posting them here, while dealing with build issues. It's a lot of fun (and this is not sarcastic). Sometimes I'll discover "Wait, this is all off" and other times I go "This could use a practical code example!", thus adding to the delay.
 
 ## Primer to Cryptography
 
@@ -120,8 +110,6 @@ Advanced cryptography topics typically covered in graduate courses.
 18. Zcash: Privacy-preserving Cryptocurrency with Zero-knowledge Proofs - Zcash and its use of NIZKs.
 
 19. Specialized Homomorphic Encryption and Applications - Somewhat homomorphic encryption. Applications. 
-
-20. Lattices and Learning with Errors (LWE) - Introduction to lattices. The learning with errors problem.
 
 21. Fully Homomorphic Encryption - Fully homomorphic encryption. 
 
@@ -234,8 +222,6 @@ Elliptic curves are fundamental to modern cryptography. This section provides a 
 5. Cryptographic Hash Functions - Hash functions, collision resistance. Essential cryptographic primitive.
 
 6. Public-Key Cryptography - Public key encryption, signatures. enabled modern crypto.
-
-7. Lattices - Lattices, LWE. A promising post-quantum alternative.
 
 8. Error-Correcting Codes - ECCs, decoding. Used in code-based crypto. 
 
