@@ -14,7 +14,7 @@ If something is incomplete, I'll try to finish it up ASAP. I'm tranferring 3-4 n
 
 [Number Theory](#number-theory)
 
-[Algebraic Structures](#algebraic-structures)
+[Complex Analysis and Algebraic Structures](#algebraic-structures)
 
 [Application of formal methods](#application-of-formal-methods)
 
@@ -242,6 +242,10 @@ Elliptic curves are fundamental to modern cryptography. This section provides a 
 ### Algebraic Structures
 
 1. [Lattices and fundamental domains](/Algebraic-Structures/Lattices-and-fundamental-domains.md) - Lattices, fundamental domains, and Voronoi cells.
+2. Holomorphic functions and modular forms - Holomorphic functions, modular forms, and the modular group.
+3. Meromorphic functions and elliptic curves - Mero functions, elliptic curves, and the j-invariant.
+3. Primer to Elliptic Functions - Elliptic functions, Weierstrass P function, and the Weierstrass zeta function.
+
 Understanding algebraic structures crucial for cryptography.
 Groups, Rings, Fields, Finite Fields, Vector Spaces, Boolean Algebra
 
