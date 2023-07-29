@@ -42,4 +42,4 @@ axs[1].imshow(meromorphic_colors, extent=[-2, 2, -2, 2], origin='lower', cmap='h
 axs[1].set_title('Meromorphic function: $f(z) = 1/z$')
 
 # Save the file in SVG format
-plt.savefig('images/holomorphic-meromorphic.svg')
+plt.savefig('images/holomorphic-meromorphic.png', dpi=100)
