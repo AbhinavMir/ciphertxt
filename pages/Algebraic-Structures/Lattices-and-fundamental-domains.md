@@ -22,4 +22,10 @@ It is important to note that an orbit is a subset of the set $\mathcal{X}$, and 
 
 In the context of lattices and the geometric realization of orbits, the orbit of a lattice point $x_0$ will be the set of all lattice points that can be obtained by applying the group of symmetries to $x_0$. The fundamental domain, as previously defined, contains exactly one representative from each distinct orbit, thereby partitioning the lattice into a collection of non-overlapping fundamental domains, each corresponding to a unique orbit under the lattice symmetry group action.
 
+![orbit](/images/orbit.gif)
+
+In the animation above, you can see that the blue object is moving away from red in a certain path, following a certain law. Now from where, work back to the formal definition and see if you understand it.
+
+
+
 ![Lattice and Fundamental Domain](/images/lattice-and-fd.png)
