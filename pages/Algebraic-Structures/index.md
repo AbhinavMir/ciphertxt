@@ -17,4 +17,4 @@ In these plots:
 
 This way, we can visualize complex functions, which involve four dimensions, in a two-dimensional image, with the help of colors.
 
-![Hello](/python/images/holomorphic-meromorphic.png)
+![Hello](/images/holomorphic-meromorphic.png)
