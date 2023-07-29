@@ -47,3 +47,5 @@ $\mathcal{F} = \{ x \in \mathcal{X} \mid \exists g \in G \text{ such that } \Phi
 It is essential to note that the fundamental domain $\mathcal{F}$ provides a geometric realization for the set of representatives of the orbits of the group action. It allows us to study the action of $G$ on $\mathcal{X}$ by considering only a representative from each orbit, simplifying the analysis of the group action.
 
 In the context of lattices, the group $G$ would typically be a group of transformations preserving the lattice structure (e.g., translations, rotations, reflections). The space $\mathcal{X}$ would then be the lattice itself, and the action of $G$ on $\mathcal{X}$ would represent the lattice symmetries. The fundamental domain would give us a unique and representative portion of the lattice, capturing its essential structure, while all other points on the lattice can be obtained by applying group elements from $G$ to points in the fundamental domain.
+
+[Problem](/Problem-Sets/lattice-and-fd)

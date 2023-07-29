@@ -2,8 +2,6 @@
 title: Lattice and Fundamental Domain
 ---
 
-import Callout from 'nextra-theme-docs/callout'
-
 Consider a 2-dimensional lattice represented by a grid of equally spaced points. Each point has integer coordinates (x, y).
 
 Your task is to find the fundamental domain of this lattice. The fundamental domain is the smallest possible region that, when translated throughout the lattice, covers the entire space without overlaps.
@@ -16,6 +14,5 @@ Instructions:
 - Mark each lattice point you visit on your map.
 - Continue exploring until you find the smallest region that includes at least one representative point  from each equivalence class under lattice translations.
 - Identify and describe the shape of this region, and count the number of unique lattice points it contains.
-<Callout emoji="💡">
-Hint: The fundamental domain is often a polygon with a specific number of lattice points inside it.
-</Callout>
+
+💡 *Hint: The fundamental domain is often a polygon with a specific number of lattice points inside it.*
