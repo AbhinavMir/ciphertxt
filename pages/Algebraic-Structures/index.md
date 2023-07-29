@@ -1,4 +1,6 @@
-import Image from 'next/image'
+---
+title: A note on complex functions and the graphing
+---
 
 When we deal with real numbers, we can easily represent them on a 1-dimensional line. When we deal with pairs of real numbers (like coordinates on a plane), we can represent them on a 2-dimensional plane. 
 
@@ -15,4 +17,4 @@ In these plots:
 
 This way, we can visualize complex functions, which involve four dimensions, in a two-dimensional image, with the help of colors.
 
-<Image src = "/python/images/holomorphic-meromorphic.svg" width = {1000} height = {1000} />
+![Hello](/python/images/holomorphic-meromorphic.png)
