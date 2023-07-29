@@ -69,6 +69,6 @@ v2_initial = np.array([0, 0.005])  # initial velocity of P
 dt = 0.01  # time step
 steps = 1000  # number of steps
 frame_interval = 33  # generate a frame every 33 steps
-gif_filename = "orbit.gif"  # output filename
+gif_filename = "public/images/orbit.gif"  # output filename
 
 simulate_and_create_gif(G, m1, m2, r1_initial, r2_initial, v1_initial, v2_initial, dt, steps, gif_filename, frame_interval)
