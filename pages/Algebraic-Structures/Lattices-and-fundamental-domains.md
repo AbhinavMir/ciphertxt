@@ -29,3 +29,21 @@ In the animation above, you can see that the blue object is moving away from red
 
 
 ![Lattice and Fundamental Domain](/images/lattice-and-fd.png)
+
+In the context of lattices, let's consider a topological space $\mathcal{X}$ equipped with a group action of a group $G$. We denote this action as $\Phi: G \times \mathcal{X} \rightarrow \mathcal{X}$, where $\Phi(g, x)$ represents the action of group element $g \in G$ on the point $x \in \mathcal{X}$.
+
+Given a point $x_0 \in \mathcal{X}$, we can form the orbit of $x_0$ under the group action as follows:
+
+$\text{Orbit of } x_0: \mathcal{O}_{x_0} = \{ \Phi(g, x_0) \mid g \in G \}$
+
+Now, we define a fundamental domain (or fundamental region) $\mathcal{F}$ for this group action as a subset of $\mathcal{X}$ that contains exactly one representative point from each distinct orbit. In other words:
+
+$\forall x \in \mathcal{X}, \exists g \in G \text{ such that } \Phi(g, x_0) = x \iff x \in \mathcal{F}$
+
+In mathematical terms, the fundamental domain $\mathcal{F}$ can be expressed as:
+
+$\mathcal{F} = \{ x \in \mathcal{X} \mid \exists g \in G \text{ such that } \Phi(g, x_0) = x \}$
+
+It is essential to note that the fundamental domain $\mathcal{F}$ provides a geometric realization for the set of representatives of the orbits of the group action. It allows us to study the action of $G$ on $\mathcal{X}$ by considering only a representative from each orbit, simplifying the analysis of the group action.
+
+In the context of lattices, the group $G$ would typically be a group of transformations preserving the lattice structure (e.g., translations, rotations, reflections). The space $\mathcal{X}$ would then be the lattice itself, and the action of $G$ on $\mathcal{X}$ would represent the lattice symmetries. The fundamental domain would give us a unique and representative portion of the lattice, capturing its essential structure, while all other points on the lattice can be obtained by applying group elements from $G$ to points in the fundamental domain.
