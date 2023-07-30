@@ -54,4 +54,4 @@ A theoretical model of perfect secrecy assumes that the ciphertext produced by a
 Examples: One time pad (The combination of a truly random and secret key with the plaintext using a bitwise operation, known as XOR. This operation creates an indistinguishable ciphertext that holds no clues about the original message, rendering it immune to any form of cryptanalysis).
 
 
-[Problem Set](../Problem-Sets/intro.md)
+[Problem Set](https://www.ciphertxt.xyz/problem-sets/intro)
