@@ -45,7 +45,7 @@ In the following image you can see two distributions (here visualised as true an
 
 The formal proof is found in the reference.
 
-
+[Problem](/Problem-Sets/hybrid-and-prf)
 
 ### Reference
 Corollary 81.7 in [Pass' A course in cryptography](https://www.cs.cornell.edu/courses/cs4830/2010fa/lecnotes.pdf)
