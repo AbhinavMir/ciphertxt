@@ -49,3 +49,4 @@ The formal proof is found in the reference.
 
 ### Reference
 Corollary 81.7 in [Pass' A course in cryptography](https://www.cs.cornell.edu/courses/cs4830/2010fa/lecnotes.pdf)
+[Lecture Notes](https://web.archive.org/web/20210506221743/https://kodu.ut.ee/~peeter_l/teaching/krprot08s/hybridarg.pdf)
