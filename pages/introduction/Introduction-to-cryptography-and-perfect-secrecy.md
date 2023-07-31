@@ -53,5 +53,21 @@ A theoretical model of perfect secrecy assumes that the ciphertext produced by a
 
 Examples: One time pad (The combination of a truly random and secret key with the plaintext using a bitwise operation, known as XOR. This operation creates an indistinguishable ciphertext that holds no clues about the original message, rendering it immune to any form of cryptanalysis).
 
+### One time pad
+
+**Encryption:**
+\[ C_i = P_i \oplus K_i \quad \text{for } i = 1, 2, \ldots, n \]
+
+**Decryption:**
+\[ P_i = C_i \oplus K_i \quad \text{for } i = 1, 2, \ldots, n \]
+
+Where:
+- \( C_i \) is the \( i \)-th character in the ciphertext,
+- \( P_i \) is the \( i \)-th character in the plaintext,
+- \( K_i \) is the \( i \)-th character in the secret key,
+- \( \oplus \) represents the bitwise XOR operation,
+- \( n \) is the length of the plaintext, ciphertext, and secret key.
+
+It is crucial to highlight that the secret key used in the One-time pad should be random, at least as long as the plaintext, and should be used only once. After a successful encryption and decryption process, the secret key must be destroyed, ensuring it is never reused for any other messages. This key destruction practice is essential to maintain the perfect secrecy property of the One-time pad. Reusing the same key or failing to protect it from unauthorized access would compromise the security of the encryption. This is perfectly secret. The practical challenges ($n**2$ problem, key exchange etc.) are discussed later.
 
 [Problem Set](https://www.ciphertxt.xyz/problem-sets/intro)
