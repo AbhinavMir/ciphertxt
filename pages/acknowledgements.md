@@ -8,7 +8,11 @@ Cisco for [CCNA](https://www.cisco.com/c/en/us/training-events/training-certific
 - Dan Boneh (again!), Shafi Goldwasser, Dawn Song, Justin Thaler, Yupeng Zhang for [ZK-learning.org](https://zk-learning.org/)
 - [Serge Vaudenay](https://people.epfl.ch/serge.vaudenay) for his book "A classical introduction to cryptography"
 - Kurose and Rose for [Computer Networking: A Top-Down Approach](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149)
+- Ling Song for their course on [Cryptoanalysis](https://hadipourh.github.io/course-cryptanalysis/)
 - Deeply inspired by Terry Tao, Laksman Sankar (@ 0xParc) etc.
 - Puja, James, Ryte and a lot more folks for their support, feedback and help.
 - Last but not the least, my Mother for her support and love and the constant inflow of [Chai](https://en.wikipedia.org/wiki/Masala_chai) (I am currently home on a summer break with her!)
 - And of course, can't forget you, dear reader!
+
+
+Note: There are way more acknowledgements, and I will add them slowly! 
