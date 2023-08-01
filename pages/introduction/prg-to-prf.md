@@ -91,5 +91,6 @@ The GGM construction is based on the observation that if $F$ is a one-way functi
 The security of the GGM construction relies on the security properties of the one-way function $F$ and the pseudorandom generator $G$. If the one-way function is hard to invert, and the PRG is secure, then the resulting function $F_{GGM}$ is a pseudorandom function, which means it behaves like a random function for any fixed key $k$ (seed $s$) and is computationally indistinguishable from a truly random function.
 
 
-## Reference
-[How to construct random functions](https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Pseudo%20Randomness/How%20To%20Construct%20Random%20Functions.pdf)
+## Further Reading
+- [How to construct random functions](https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Pseudo%20Randomness/How%20To%20Construct%20Random%20Functions.pdf)
+- [Pseudorandom Functions: Three Decades Later](https://eprint.iacr.org/2017/652.pdf)
