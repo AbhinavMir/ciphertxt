@@ -68,3 +68,24 @@ Let's define the GGM construction formally:
 1. Let $F: \{0, 1\}^* \times \{0, 1\}^* \rightarrow \{0, 1\}^*$ be a one-way function. It takes two inputs, a key $k$ and a string $x$, and returns an output denoted as $F(k, x)$.
 
 2. Choose a pseudorandom generator (PRG) $G: \{0, 1\}^* \rightarrow \{0, 1\}^{l(n)}$, where $l(n)$ is a polynomial function representing the length of the output.
+
+The GGM construction proceeds as follows:
+
+Step 1: Key Generation
+
+- Generate a random seed $s$ of length $n$, where $n$ is a security parameter.
+- The key $k$ used for the GGM construction is the seed $s$.
+
+Step 2: Pseudorandom Function Evaluation
+
+- To evaluate the pseudorandom function $F_{GGM}$ at a point $x \in \{0, 1\}^*$, compute $F_{GGM}(x)$ as follows:
+
+$$
+F_{GGM}(x) = G(s \mathbin\| x) \oplus F(s, x)
+$$
+
+where $\mathbin\|$ denotes concatenation, and $\oplus$ represents the bitwise XOR operation.
+
+The GGM construction is based on the observation that if $F$ is a one-way function, then the output $F(s, x)$ is indistinguishable from a random string when given $x$ and $s$. Additionally, the output of the PRG $G(s \mathbin\| x)$ is indistinguishable from a random string when given $s$. By XORing these two pseudorandom strings together, we get a new string that is still pseudorandom, as long as the PRG $G$ is secure. This is known as the [hybrid argument](/introduction/hybrid-and-PRF).
+
+The security of the GGM construction relies on the security properties of the one-way function $F$ and the pseudorandom generator $G$. If the one-way function is hard to invert, and the PRG is secure, then the resulting function $F_{GGM}$ is a pseudorandom function, which means it behaves like a random function for any fixed key $k$ (seed $s$) and is computationally indistinguishable from a truly random function.

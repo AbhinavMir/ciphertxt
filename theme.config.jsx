@@ -3,7 +3,7 @@ import { useNextSeoProps } from 'nextra-theme-docs'
 import { Callout } from 'nextra/components'
 
 export default {
-    logo: <span>Ciphertxt.com</span>,
+    logo: <span>Topics</span>,
     project: {
       link: 'https://github.com/abhinavmir/ciphertxt',
     },
