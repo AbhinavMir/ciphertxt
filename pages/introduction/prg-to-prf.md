@@ -1,3 +1,7 @@
+---
+title: The Goldreich-Goldwasser-Micali (GGM) construction and IND-CPA encryption
+---
+
 We will delve a little more into the details of PRGs, PRFs and PRPs (Pseudorandom Permutations).
 
 ```mermaid
