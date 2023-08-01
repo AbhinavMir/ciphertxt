@@ -89,3 +89,7 @@ where $\mathbin\|$ denotes concatenation, and $\oplus$ represents the bitwise XO
 The GGM construction is based on the observation that if $F$ is a one-way function, then the output $F(s, x)$ is indistinguishable from a random string when given $x$ and $s$. Additionally, the output of the PRG $G(s \mathbin\| x)$ is indistinguishable from a random string when given $s$. By XORing these two pseudorandom strings together, we get a new string that is still pseudorandom, as long as the PRG $G$ is secure. This is known as the [hybrid argument](/introduction/hybrid-and-PRF).
 
 The security of the GGM construction relies on the security properties of the one-way function $F$ and the pseudorandom generator $G$. If the one-way function is hard to invert, and the PRG is secure, then the resulting function $F_{GGM}$ is a pseudorandom function, which means it behaves like a random function for any fixed key $k$ (seed $s$) and is computationally indistinguishable from a truly random function.
+
+
+## Reference
+[How to construct random functions](https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Pseudo%20Randomness/How%20To%20Construct%20Random%20Functions.pdf)
