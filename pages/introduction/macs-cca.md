@@ -61,3 +61,31 @@ The birthday attack exploits the probability of finding two different inputs tha
 
 **Known-Plaintext Attack**
 In a known-plaintext attack, the attacker has access to both the plaintext and the corresponding ciphertext. The objective is to deduce the encryption key. An IV helps mitigate the impact of known-plaintext attacks by adding an extra layer of randomness to each encryption operation, making it more challenging for the attacker to identify relationships between plaintext and ciphertext.
+
+## Indistinguishability under Chosen Ciphertext Attack
+
+Unlike the other two attacks I discussed, this one's important for us in the now as we begin solving some problem sets.
+
+Chosen Ciphertext Attack is a type of cryptographic attack that aims to break an encryption scheme by gaining access to the decryption oracle. Unlike other attacks, such as chosen plaintext attacks or known plaintext attacks, where the attacker can only choose or observe plaintexts, in a CCA, the attacker can submit ciphertexts of their choice to the decryption oracle and receive the corresponding decrypted plaintexts. This access to the decryption oracle enables the attacker to gain deeper insight into the encryption process and find potential weaknesses.
+
+IND-CCA stands for "INDistinguishability under Chosen-Ciphertext Attack." It is a security property that cryptographic encryption schemes should possess to ensure the confidentiality of data in the presence of attackers.
+
+In an encryption scheme, an adversary may try to obtain information about the plaintext by submitting chosen ciphertexts to be decrypted by the encryption oracle. The adversary's goal is to distinguish the decryption of two different ciphertexts that encrypt the same plaintext or gain any other useful information about the plaintext.
+
+An encryption scheme is said to be IND-CCA secure if an attacker, even with access to an encryption oracle and a decryption oracle, cannot distinguish between two ciphertexts that encrypt the same plaintext or learn any information about the plaintext through chosen-ciphertext attacks.
+
+Formally, IND-CCA security can be defined as follows:
+
+$$
+\text{Adv(A) = Pr}[A(C) = m \,|\, C = E(k, m) \text{ for some random key k and random message m}] - \frac{1}{2},
+$$
+
+where C is a ciphertext obtained from A's queries, m is a message, and k is a randomly chosen encryption key.
+
+In simple terms, an IND-CCA secure encryption scheme ensures that an attacker cannot leverage chosen-ciphertext queries to reveal any information about the encrypted data or the encryption key. This property is crucial for secure communication and data protection in various cryptographic protocols and systems.
+
+## IND-CCA vs IND-CPA by analogy
+
+IND-CPA is like a safe that can withstand burglars who can try to open it by only observing its response to a series of chosen-plaintext attacks (i.e., they can choose plaintexts and see the encrypted results). The safe should remain secure even if an attacker can observe the encryption of several chosen plaintexts.
+
+IND-CCA is like a safe that not only resists burglars but also has a mechanism to resist attackers who can interact with the safe by presenting ciphertexts and receiving decrypted results (chosen-ciphertext attacks). The safe should remain secure even when facing adversaries that can adapt their attacks based on previously obtained decryption information.
