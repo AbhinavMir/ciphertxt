@@ -94,7 +94,11 @@ The security of the GGM construction relies on the security properties of the on
 
 IND CPA stands for "Indistinguishability under Chosen-Plaintext Attack." It is a security property that cryptographic encryption schemes aim to achieve.
 
-In short, IND CPA means that an adversary should not be able to distinguish between the encryption of two different plaintext messages, even when they are given the power to choose the plaintexts they want to encrypt and observe the corresponding ciphertexts. This ensures that the encryption scheme provides confidentiality and prevents attackers from gaining useful information by analyzing ciphertexts generated from chosen plaintexts. It is a fundamental security requirement for modern encryption schemes.
+Basically, IND CPA means that an adversary should not be able to distinguish between the encryption of two different plaintext messages, even when they are given the power to choose the plaintexts they want to encrypt and observe the corresponding ciphertexts. This ensures that the encryption scheme provides confidentiality and prevents attackers from gaining useful information by analyzing ciphertexts generated from chosen plaintexts. It is a fundamental security requirement for modern encryption schemes.
+
+Best to watch a good video on this [here](https://www.youtube.com/watch?v=qyS8rIQisJk). There's not much textual information I can share with you beyond this, it's best you form a more intuitive understanding of this concept by watching the video. 
+
+In the next topic, I will use analogies to explain CPA and it's "counterpart": CCA (Chosen Ciphertext Attack). From there, you'll gain a better understanding.
 
 [Problem](/problem-set/cpa.md)
 
