@@ -146,12 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d619fc6c7b9ab482",
+  "active": "69f26f9a10ee0525",
   "lastOpenFiles": [
-    "problem-set/cpa.md",
-    "pages/introduction/pseudrandom-generators.md",
-    "pages/introduction/hybrid-and-PRF.md",
     "pages/introduction/prg-to-prf.md",
+    "pages/introduction/Introduction-to-cryptography-and-perfect-secrecy.md",
+    "pages/introduction/hybrid-and-PRF.md",
+    "pages/introduction/pseudrandom-generators.md",
+    "problem-set/cpa.md",
     "pages/problem-sets/cpa.md",
     "pages/problem-sets/hybrid-and-prf.md",
     "pages/problem-sets/index.md",
