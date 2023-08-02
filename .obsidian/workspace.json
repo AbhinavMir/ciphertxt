@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f80e2937df70e9c3",
+        "id": "17b08040614561fa",
         "type": "tabs",
         "children": [
           {
-            "id": "d619fc6c7b9ab482",
+            "id": "710a90c808384e57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/introduction/pseudrandom-generators.md",
+                "file": "().md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/introduction/pseudrandom-generators.md",
+                "file": "().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/introduction/pseudrandom-generators.md",
+                "file": "().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/introduction/pseudrandom-generators.md"
+                "file": "().md"
               }
             }
           }
@@ -146,12 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69f26f9a10ee0525",
+  "active": "710a90c808384e57",
   "lastOpenFiles": [
+    "introduction/prg-to-prf.md",
+    "pages/index.mdx",
+    "introduction",
+    "().md",
+    "pages/introduction/pseudrandom-generators.md",
     "pages/introduction/prg-to-prf.md",
     "pages/introduction/Introduction-to-cryptography-and-perfect-secrecy.md",
     "pages/introduction/hybrid-and-PRF.md",
-    "pages/introduction/pseudrandom-generators.md",
     "problem-set/cpa.md",
     "pages/problem-sets/cpa.md",
     "pages/problem-sets/hybrid-and-prf.md",
