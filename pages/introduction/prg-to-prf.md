@@ -90,6 +90,13 @@ The GGM construction is based on the observation that if $F$ is a one-way functi
 
 The security of the GGM construction relies on the security properties of the one-way function $F$ and the pseudorandom generator $G$. If the one-way function is hard to invert, and the PRG is secure, then the resulting function $F_{GGM}$ is a pseudorandom function, which means it behaves like a random function for any fixed key $k$ (seed $s$) and is computationally indistinguishable from a truly random function.
 
+## IND-CPA encryption
+
+IND CPA stands for "Indistinguishability under Chosen-Plaintext Attack." It is a security property that cryptographic encryption schemes aim to achieve.
+
+In short, IND CPA means that an adversary should not be able to distinguish between the encryption of two different plaintext messages, even when they are given the power to choose the plaintexts they want to encrypt and observe the corresponding ciphertexts. This ensures that the encryption scheme provides confidentiality and prevents attackers from gaining useful information by analyzing ciphertexts generated from chosen plaintexts. It is a fundamental security requirement for modern encryption schemes.
+
+[Problem](/problem-set/cpa.md)
 
 ## Further Reading
 - [How to construct random functions](https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Pseudo%20Randomness/How%20To%20Construct%20Random%20Functions.pdf)
