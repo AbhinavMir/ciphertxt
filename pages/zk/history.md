@@ -1,4 +1,4 @@
-**Title: Zero-Knowledge Proofs: Unveiling the Mystery of the "Cave and Door" Scenario and Its Historical Significance**
+**The history of ZKs**
 
 Zero-knowledge proofs (ZKPs), a class of cryptographic protocols, have revolutionized the world of digital communication and privacy. They have a unique ability to prove the validity of a statement without revealing any information about the statement itself, a radical departure from the traditional concept of proof. This ground-breaking approach was first introduced in the 1980s by Shafi Goldwasser, Silvio Micali, and Charles Rackoff, three computer scientists who would later be awarded the Turing Award for their contributions to cryptography and complexity theory. 
 
