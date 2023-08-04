@@ -12,7 +12,8 @@ Cisco for [CCNA](https://www.cisco.com/c/en/us/training-events/training-certific
 - Deeply inspired by Terry Tao, Laksman Sankar (@ 0xParc) etc.
 - Puja, James, Ryte and a lot more folks for their support, feedback and help.
 - Last but not the least, my Mother for her support and love and the constant inflow of [Chai](https://en.wikipedia.org/wiki/Masala_chai) (I am currently home on a summer break with her!)
-- And of course, can't forget you, dear reader!
+- And of course, can't forget you, thank you for reading!
 
+I would also like to thank ChatGPT because some of my notes were cumbersome and needed a lot of context which ChatGPT is great at providing. At some points, I had to use ChatGPT because I couldn't figure out a way to put my concepts into words properly and I didn't want to be handwavey, or needed to sanity check some concepts and while it does hallucinate a lot, it can provide a good general direction. ChatGPT is a great tool, I recommend using it for learning things. Please note that I absolutely have concerns over IP rights, x-risk and such w.r.t to LLMs. I personally pay for it, but you can run many solid models locally!
 
-Note: There are way more acknowledgements, and I will add them slowly! 
+*Another Note*: There are way more acknowledgements, and I will add them slowly! 
